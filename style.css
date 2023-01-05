@@ -10,7 +10,8 @@
       background-repeat: no-repeat;
       background-position: bottom right, left;
 }
-section{
+
+section {
       margin-top: 130px;
 }
 
@@ -93,7 +94,7 @@ main {
       text-align: center;
       font-weight: 700;
       font-size: 35px;
-      margin-bottom: 30px;
+      margin-bottom: 130px;
 
 }
 
@@ -149,4 +150,82 @@ skill {
 
 .skill-description {
       color: #757575;
+}
+
+
+.resume-section {
+      display: flex;
+      gap: 24px;
+}
+
+.item-title {
+      margin-top: 30px;
+      margin-bottom: 10px;
+      color: #474747;
+      font-weight: 700;
+      font-size: 25px;
+
+}
+
+.item-sub-title {
+      margin-bottom: 20px;
+      color: #757575;
+      font-weight: 600;
+      font-size: 20px;
+}
+
+.item-description {
+      margin-bottom: 20px;
+      color: #757575;
+      font-weight: 400;
+      font-size: 16px;
+}
+
+
+
+
+.contact{
+      display: flex;
+      
+      gap: 100px;
+      background: #FFF8F3;
+      padding: 130px 200px;
+}
+/* .icons{
+      width:100%;
+      text-align: left;
+} */
+.forms{
+      width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.forms form{
+      display: flex;
+      flex-direction: column;
+      width: 460px;
+      gap: 24px;
+      
+}
+.forms  textarea{
+      height: 180px;
+      width: 460px;
+}
+
+.contact .section-title{
+      text-align: left;
+     
+}
+
+.contact-description{
+      margin-top: 20px;
+      margin-bottom: 30px;
+}
+.contact a{
+      text-decoration: none;
+}
+
+.contact-btn{
+      width: 150px;
+      height: 65px;
 }
